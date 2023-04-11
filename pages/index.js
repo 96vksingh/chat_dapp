@@ -1,3 +1,20 @@
+// import { ChatAppContext } from '@/Context/ChatAppContext';
+// // import react from 'react';
+// import React,{useState,useEffect,useContext} from 'react';
+
+
+
+// const chatApp = () => {
+//   const {title} = useContext(ChatAppContext) 
+//   return <div>
+// {title}
+//   </div>
+
+// }
+
+// export default chatApp;
+
+
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -18,7 +35,7 @@ export default function Home() {
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
+            <code className={styles.code}>src/pages/index.js</code>
           </p>
           <div>
             <a
@@ -48,6 +65,15 @@ export default function Home() {
             height={37}
             priority
           />
+          <div className={styles.thirteen}>
+            <Image
+              src="/thirteen.svg"
+              alt="13"
+              width={40}
+              height={31}
+              priority
+            />
+          </div>
         </div>
 
         <div className={styles.grid}>
